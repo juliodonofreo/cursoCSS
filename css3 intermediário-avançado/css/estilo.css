@@ -77,19 +77,57 @@ IMPORTANTE: Elementos com a regra "!IMPORTANT" são
 exceções e sempre possuem a prioridade
 */
 
-/* ordenado do menos específico para o mais específico */
-* { /* 4 */
+/* ordenado do menos específico para o mais específico 
+* { /* 4 
 	color: red;
 }
 
-h2 { /* 3 */
+h2 { /* 3 
 	color: blue;
 }
 
-h2.verde { /* 2 */
+h2.verde { /* 2
 	color: green;
 }
 
-h2#amarelo { /* 1 */
+h2#amarelo { /* 1 
 	color: yellow;
+}
+*/
+
+
+/* aula 3 - barra de navegação vertical 
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+li {
+	padding: 10px 20px;
+	background: url(../imagens/seta.png) no-repeat left center;
+}
+
+*/
+
+ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+ul a {
+	width: 200px;
+	height: 40px;
+	display: block;
+	background: url(../imagens/menu.png) no-repeat left center;
+	color: #000;
+	text-decoration: none;
+	text-indent: 40px;
+	line-height: 40px;
+}
+
+a:hover {
+	background-position: right center;
+	color: #fff;
 }
