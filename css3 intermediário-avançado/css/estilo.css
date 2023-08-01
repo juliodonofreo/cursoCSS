@@ -1,3 +1,5 @@
+/* aula 1 - seletores */
+
 /* Seletor universal 
 *
  {
@@ -10,21 +12,21 @@
 h1{
 	color: green;
 }
-*/
 
-/* Seletor de classe */
+
+/* Seletor de classe 
 
 p.verde{
 	color: green;
 }
 
-/* Seletor de id */
+/* Seletor de id
 
 #cabecalho{
 	border: 1px solid blue;
 }
 
-/* Seletor de filho */
+/* Seletor de filho 
 
 li > a {
 	color: red;
@@ -32,22 +34,62 @@ li > a {
 }
 
 
-/* Seletor de descendente */
+/* Seletor de descendente 
 
 div a {
 	color: darkcyan;
 }
 
-/* Seletor de irmão adjacente */
+/* Seletor de irmão adjacente 
 
 h1 + p {
 	color: red;
 }
 
 
-/*  Seletor de irmão geral */
+/*  Seletor de irmão geral 
 
 
 h2 ~ p {
 	color: yellowgreen;
+}
+
+
+
+
+
+/* aula 2 - Herança e especificidade 
+
+#pagina p{
+	color: red;
+}
+
+p {
+	color: blue;
+}
+*/
+
+/* Entre dois seletores, sempre o mais
+específico será aplicado. Caso os dois 
+sejam iguais será aplicado o que vem por último 
+
+IMPORTANTE: Elementos com a regra "!IMPORTANT" são
+exceções e sempre possuem a prioridade
+*/
+
+/* ordenado do menos específico para o mais específico */
+* { /* 4 */
+	color: red;
+}
+
+h2 { /* 3 */
+	color: blue;
+}
+
+h2.verde { /* 2 */
+	color: green;
+}
+
+h2#amarelo { /* 1 */
+	color: yellow;
 }
