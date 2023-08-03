@@ -120,14 +120,23 @@ ul a {
 	width: 200px;
 	height: 40px;
 	display: block;
-	background: url(../imagens/menu.png) no-repeat left center;
+	background: #f7b600 url(../imagens/menu.png) no-repeat left center;
 	color: #000;
 	text-decoration: none;
 	text-indent: 40px;
 	line-height: 40px;
 }
+/* aula 4 - selecionando página atual */
 
-a:hover {
+a:hover, .selecionado a { /* seleção manual */
 	background-position: right center;
+	background-color: #f99200;
+	color: #fff;
+}
+
+#home #navegacao .home a,
+#sobre #navegacao .sobre a{ /* seletor por página com menu específico */
+	background-position: right center;
+	background-color: #f99200;
 	color: #fff;
 }
