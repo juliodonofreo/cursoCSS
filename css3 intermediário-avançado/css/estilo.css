@@ -227,11 +227,13 @@ body {
 }
 
 #container {
-	width: 85%;
+	border: 1px solid red;
+	width: 960px;
 	margin: 0 auto;
-	background: #fff;
+	background: url(../imagens/coluna.png) repeat-y;
 	min-width: 820px;
 	max-width: 1280px;
+	z-index: auto;
 }
 
 #marca {
@@ -250,7 +252,7 @@ body {
 #navegacao {
 	width: 23%; /* 180px -> 25.71% */
 	float: left;
-	background: #d1d1d1;
+	/* background: #d1d1d1; */
 	text-align: center;
 }
 
