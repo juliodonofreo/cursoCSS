@@ -221,6 +221,7 @@ ul #atual a{
 
 /* aula 7 - layout fixo */
 
+/*
 body {
 	font-family: "Trebuchet MS", Helvetica, sans-serif;
 	background: #f2f2f2;
@@ -245,14 +246,14 @@ body {
 }
 
 #conteudo {
-	width: 75%; /* 520px -> 75% */
+	width: 75%; /* 520px -> 75%
 	float: right;
 }
 
 #navegacao {
-	width: 23%; /* 180px -> 25.71% */
+	width: 23%; /* 180px -> 25.71% 
 	float: left;
-	/* background: #d1d1d1; */
+	/* background: #d1d1d1; 
 	text-align: center;
 }
 
@@ -316,10 +317,48 @@ body {
 	width: 90%;
 	overflow: hidden;
 }
-*/
+
 
 img.img-noticia {
 	width: 94%;
 	padding: 2%;
 	max-width: 600px;
+}
+
+*/
+
+/* Estilizando tabelas */
+
+body{
+	font-family: 'Trebuchet MS', Helvetica ,sans-serif;
+}
+
+table{
+	width: 80%;
+	min-width: 200px;
+	border-collapse: separate;
+}
+
+td, th{
+	padding: 7px;
+}
+
+th {
+	text-transform: uppercase;
+	border-top: 1px solid #999;
+	border-bottom: 1px solid #111;
+	text-align: left;
+	letter-spacing: 0.1em;
+}
+
+tr.alternado {
+	background-color: #efefef;
+}
+
+.numero {
+	text-align: right;
+}
+
+tr:hover {
+	background-color: #c3e6e5;
 }
