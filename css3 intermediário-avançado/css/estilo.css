@@ -327,7 +327,7 @@ img.img-noticia {
 
 */
 
-/* Estilizando tabelas */
+/* Estilizando tabelas 
 
 body{
 	font-family: 'Trebuchet MS', Helvetica ,sans-serif;
@@ -361,4 +361,39 @@ tr.alternado {
 
 tr:hover {
 	background-color: #c3e6e5;
+}
+
+*/
+
+body{
+	font-family: 'Trebuchet MS', Helvetica ,sans-serif;
+}
+
+fieldset{
+	margin: 1em 0;
+	padding: 1em;
+	border: 1px solid #ccc;
+	background: #f8f8f8;
+}
+
+legend{
+	font-weight: bold;
+}
+
+label {
+	display: block;
+	cursor: pointer;
+}
+
+input[type="text"] {
+	width: 20em;
+}
+
+textarea {
+	width: 20em;
+	height: 10em;
+}
+
+input[type="radio"] {
+	margin-right: 1em; 
 }
