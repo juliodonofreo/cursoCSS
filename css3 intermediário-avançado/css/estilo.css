@@ -400,6 +400,7 @@ input[type="radio"] {
 
 /* Estilizando formulários parte 2 */
 
+/*
 body {
 	font-family: "Trebuchet MS", Helvetica, sans-serif;
 	background: #643d87 url(../imagens/fundo.jpg) no-repeat top center;
@@ -451,4 +452,26 @@ input.submit {
 	width: 90%;
 
 	background: linear-gradient(to bottom, #faa600, #f68a00);
+}
+
+*/
+
+
+/* arredondamento com imagens */
+
+.caixa {
+	width: 400px;
+	background: url(../imagens/topo2.png) no-repeat left top, url(../imagens/baixo2.png) no-repeat left bottom, url(../imagens/fundo-arredondamento.png) repeat-y;
+}
+
+.caixa div {
+	padding: 10px;
+}
+
+.caixa p{
+	margin-bottom: 0;
+}
+
+.caixa h2{
+	margin-top: 0;
 }
