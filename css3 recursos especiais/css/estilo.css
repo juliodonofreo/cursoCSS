@@ -46,7 +46,7 @@
 
 
 /****************************
-Animações */
+Animações
 
 @-webkit-keyframes animacao-caixa{
     from {
@@ -104,10 +104,28 @@ Animações */
     animation-duration: 5s;
     animation-delay: 3s;
     animation-iteration-count: infinite;
-    animation-direction: alternate;*/
+    animation-direction: alternate;
     
     -webkit-animation: animacao-caixa 5s 3s infinite alternate;
     -moz-animation: animacao-caixa 5s 3s infinite alternate;
     -o-animation: animacao-caixa 5s 3s infinite alternate;
     animation: animacao-caixa 5s 3s infinite alternate;
 }
+
+*/
+
+#caixa {
+    width: 300px;
+    height: 300px;
+    background: orange;
+    position: relative;
+}
+
+#caixa:hover {
+    width: 400px;
+    background: yellow;
+    /* transition: width 3s, background 3s; */
+    transition: all 3s;
+}
+
+
