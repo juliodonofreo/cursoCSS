@@ -1,4 +1,4 @@
-#caixa {
+/* #caixa {
     width: 300px;
     height: 300px;
     padding: 8px;
@@ -11,10 +11,10 @@
 
 #caixa h1 {
     color: white;
-    /* text-shadow: 20px 20px red; */
+    /* text-shadow: 20px 20px red; 
     text-shadow: 20px 20px 5px rgba(0, 0, 0, 0.6);
 
-}
+} */
 
 /* #caixa {
     width: 300px;
@@ -41,3 +41,73 @@
 .redondo {
     border-radius: 150px;
 } */
+
+
+
+
+/****************************
+Animações */
+
+@-webkit-keyframes animacao-caixa{
+    from {
+        background-color: red;
+    }
+
+    to{
+        background-color: yellow;
+    }
+}
+
+@-moz-keyframes animacao-caixa{
+    from {
+        background-color: red;
+    }
+
+    to{
+        background-color: yellow;
+    }
+}
+
+@-o-keyframes animacao-caixa{
+    from {
+        background-color: red;
+    }
+
+    to{
+        background-color: yellow;
+    }
+}
+
+@keyframes animacao-caixa{
+    from {
+        background-color: red;
+        border-radius: 0px;
+        top: 0;
+        left: 0;
+    }
+
+    to{
+        background-color: yellow;
+        border-radius: 300px;
+        top: 200px;
+        left: 200px;
+
+    }
+}
+
+#caixa{
+    width: 300px;
+    height: 300px;
+    background: red;
+    position: relative;
+    /*animation-name: animacao-caixa;
+    animation-duration: 5s;
+    animation-delay: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;*/
+    
+    -webkit-animation: animacao-caixa 5s 3s infinite alternate;
+    -moz-animation: animacao-caixa 5s 3s infinite alternate;
+    -o-animation: animacao-caixa 5s 3s infinite alternate;
+    animation: animacao-caixa 5s 3s infinite alternate;
+}
