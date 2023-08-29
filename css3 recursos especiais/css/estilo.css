@@ -145,3 +145,16 @@ nav {
 footer{
     background: #ccc;
 }
+
+article {
+    padding: 5px;
+    background: orange;
+}
+
+section {
+    border: 1px dotted red;
+}
+
+aside {
+    background: blue;
+}
