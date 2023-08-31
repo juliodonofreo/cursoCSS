@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Utilizando tags menos genéricas</title>
+
+    <!-- Estilo customizado-->
+    <link rel="stylesheet" href="css/estilo.css">
+
+    <!-- Normalize css-->
+    <link rel="stylesheet" href="css/normalize.css">
+
+</head>
+<body>
+    
+    <form action="">
+        
+        <!-- nome -->
+        <label for="nome">Nome: </label>
+        <input type="text" name="nome" id="nome" autofocus>
+        <br><br>
+
+        <!-- e-mail -->
+        <label for="email">Email: </label>
+        <input type="email" name="email" id="email">
+        <br><br>
+
+        <!-- Número -->
+        <label for="numero">Número: </label>
+        <input type="number" name="numero" id="numero" min="5" max="10">
+        <br><br>
+
+        <!-- Url -->
+        <label for="url">URL: </label>
+        <input type="url" name="url" id="url" placeholder="ex: http://www.google.com">
+        <br><br>
+
+        <!-- Pesquisa -->
+        <label for="pesquisa">Pesquisa: </label>
+        <input type="search" name="pesquisa" id="pesquisa">
+        <br><br>
+
+        <!-- Range -->
+        <label for="range">Range: </label>
+        <input type="range" name="range" id="range" min="1" max="20" value="10">
+        <br><br>
+
+        <!-- Data -->
+        <label for="data">Data: </label>
+        <input type="date" name="data" id="data">
+        <br><br>
+
+        <!-- Data -->
+        <label for="cor">Cor: </label>
+        <input type="color" name="cor" id="cor">
+        <br><br>
+
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+</html>
